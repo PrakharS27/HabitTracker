@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    height: 99.9vh;
+    width: 99.9vw;
+    border: 1px solid black;
+    background-image: url("https://thumbs.dreamstime.com/b/top-view-flat-lay-habit-tracker-book-flip-clock-succulent-plant-pot-wooden-table-background-copy-space-247106966.jpg");
+background-size: cover;
+opacity: 0.8;
+position: absolute;
+
+}
+
+
+.main-div{
+width: 60%;
+margin-left:20% ;
+border: 1px solid black;
+margin-top: 10%;
+background-color: rgba(248, 248, 255,0.8);
+border-radius: 10px;
+height: auto;
+
+/* min-height: 60%; */
+}
+
+.pending{
+    height: 50px;
+    width: 100%;
+    border: 1px black;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.remaining{
+    height: 50px;
+    width: 100%;
+    border: 1px black;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    height: 50px;
+    width: 100%;
+
+}
+
+.navigateicon{
+height: 35px;
+width: 35px;
+color: rgb(38, 38, 121);
+position: fixed;
+cursor: pointer;
+}
+
+.navigateicon:hover{
+color: blue;
+height: 40px;
+width: 40px;
+transition: 500ms;
+}
+
+.allhabit{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px dashed grey;
+    border-radius: 10px;
+}
+
+.allhabit:hover{
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 20px;
+border: 1px dashed black;
+transition: 500ms;
+color: black;
+
+}
+
+.habit{
+height: 100px;
+width: 100px;
+background-color: black;
+
+}
+
+
+.taskremaningdiv{
+    height: 20px;
+    width: 60%;
+    margin-left:20% ;
+    border: 1px dashed black;
+    background-color: rgba(138, 43, 226,0.3);
+    margin-top: -10px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+.progress{
+    margin-top: 10px;
+}
+
+.black{
+    width: 100%;
+    border: 1px dashed black;
+    border-radius: 10px;
+    display: flex;
+
+    justify-content:space-between ;
+}
+
+.black:hover{
+    border: 1px dashed black;
+    border-radius: 15px;
+    background-color: rgba(0, 254, 254,0.3);
+    transition: 500ms;
+    
+
+}
+
+.Taskvcardleft{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    justify-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Taskvcardright{
+    height: 100%;
+    width: 70%;
+
+}
+
+.TaskvcardRightHabit{
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.TaskvcardRightdesc{
+    color: rgb(37, 37, 37);
+    font-size: 14px;
+    font-weight: 350;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.Taskvcardlefticon{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.grey{
+    color: grey;
+}
+
+.blacks{
+    color: black;
+}
+
+
+.allHistoryPage{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.navis{
+    height: 50px;
+    width: 100%;
+}
+
+.navi{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.naviicon{
+height: 35px;
+width: 35px;
+color: rgb(38, 38, 121);
+cursor: pointer;
+}
+
+.naviicon:hover{
+    color: blue;
+    height: 36px;
+    width: 36px;
+    transition: 500ms;
+    }
+
+    .allhditsss{
+        height: 50px;
+    width: 100%;
+    
+    }
+
+    .allhabit{
+        padding-left: 30px;
+    }
+
+    .img{
+        width: 95%;
+        margin-left: 2.5%;
+        border-radius: 20px;
+
+    }
+
+
+    .addnew{
+        width: 80%;
+        height: 98%;
+        margin-left: 10%;
+    }
+    .imgaddnew{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .imghistory{
+        border-radius: 20px;
+        height: 20%;
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .historypage{
+        height: auto;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .cpy{
+        height: 10px;
+        z-index: 5;
+        width: auto;
+        margin-left: 40%;
+        position: relative;
+    }
