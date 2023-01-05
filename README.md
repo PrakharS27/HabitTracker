@@ -42,7 +42,7 @@ You can see the ison  thums up show that the habit has done, the thums down acti
 Clone the project
 
 ```bash
-  git clone https://github.com/niteenkum/habit-tracker
+  git clone https://github.com/PrakharS27/HabitTrackermain
 ```
 
 Go to the project directory
