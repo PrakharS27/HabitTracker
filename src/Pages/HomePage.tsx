@@ -8,7 +8,6 @@ import TabBar from "../Component/TabBar";
 import TaskCard from "../Component/TaskCard";
 import { RootState } from "../Redux/store";
 import { addDay } from "../Redux/updateHabitSlice";
-import "./Pages.scss";
 
 export default function HomePage() {
   const navigate = useNavigate();
